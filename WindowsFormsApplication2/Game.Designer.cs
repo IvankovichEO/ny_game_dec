@@ -458,7 +458,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::WindowsFormsApplication2.Properties.Resources.live;
-            this.pictureBox1.Location = new System.Drawing.Point(508, 454);
+            this.pictureBox1.Location = new System.Drawing.Point(558, 439);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(73, 62);
@@ -467,7 +467,7 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Location = new System.Drawing.Point(558, 553);
+            this.pictureBox2.Location = new System.Drawing.Point(558, 535);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(73, 62);
@@ -476,7 +476,7 @@
             // 
             // pictureBox3
             // 
-            this.pictureBox3.Location = new System.Drawing.Point(675, 497);
+            this.pictureBox3.Location = new System.Drawing.Point(676, 535);
             this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(73, 62);
@@ -485,12 +485,13 @@
             // 
             // pictureBox4
             // 
-            this.pictureBox4.Location = new System.Drawing.Point(612, 409);
+            this.pictureBox4.Location = new System.Drawing.Point(676, 439);
             this.pictureBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(73, 62);
             this.pictureBox4.TabIndex = 4;
             this.pictureBox4.TabStop = false;
+            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
             // pictureBox5
             // 
